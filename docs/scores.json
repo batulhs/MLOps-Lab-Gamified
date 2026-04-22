@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T07:48:26.027629+00:00",
+  "generated_at": "2026-04-22T08:32:34.554741+00:00",
   "points_config": {
     "exercises": {
       "ex01": {
@@ -77,11 +77,15 @@
   },
   "leaderboard": [
     {
-      "username": "urmsandeep",
+      "username": "urmsandeep-test-01",
       "exercises": {
         "ex01": {
-          "passed": false,
-          "message": "No model.pkl or model.joblib found in exercises/ex01/"
+          "passed": true,
+          "message": "Model trained. RMSE=3.21, R\u00b2=0.895",
+          "metrics": {
+            "rmse": 3.21,
+            "r2": 0.895
+          }
         },
         "ex02": {
           "passed": false,
@@ -120,17 +124,20 @@
           "message": "No grader for ex10 yet"
         }
       },
-      "last_updated": "2026-04-22T07:48:26.027338+00:00",
+      "last_updated": "2026-04-22T08:32:34.554468+00:00",
       "status": "ok",
-      "total_xp": 0,
+      "total_xp": 15,
       "breakdown": [
         {
           "exercise": "ex01",
           "name": "Baseline Model",
           "emoji": "\ud83c\udfaf",
-          "passed": false,
-          "xp": 0,
-          "message": "No model.pkl or model.joblib found in exercises/ex01/"
+          "passed": true,
+          "xp": 15,
+          "bonuses": [
+            "\ud83e\ude78 First Blood +5"
+          ],
+          "message": "Model trained. RMSE=3.21, R\u00b2=0.895"
         },
         {
           "exercise": "ex02",
@@ -208,7 +215,7 @@
       "rank": 1
     },
     {
-      "username": "urmsandeep-test-01",
+      "username": "urmsandeep",
       "exercises": {
         "ex01": {
           "passed": false,
@@ -251,7 +258,7 @@
           "message": "No grader for ex10 yet"
         }
       },
-      "last_updated": "2026-04-22T07:48:26.012801+00:00",
+      "last_updated": "2026-04-22T08:32:34.509435+00:00",
       "status": "ok",
       "total_xp": 0,
       "breakdown": [
